@@ -1,0 +1,193 @@
+# Jekyll
+markdown: rdiscount
+highlighter: "pygments"
+permalink: /:title.html
+
+# Conference info
+conf:
+  name: "Beer & Code"
+  description: "O melhor evento de cerveja e código da Região Norte!"
+  date: "26 de Março de 2016"
+  price: "É de graça"
+  address: "Boulevard Kukulcan, 30, México"
+  venue: "Fecomercio RO"
+  city: "Porto Velho"
+
+# Site info
+site:
+  url: "http://confboilerplate.com"
+  favicon: "http://braziljs.org/favicon.ico"
+  googleanalytics: "UA-33656081-1"
+  images:
+    cover: "http://f.cl.ly/items/2X28422q1e3w0C2U1P3H/866591_24254643.jpg"
+    facebook: "http://braziljs.org/img/fb-share.jpg"
+
+subscribe_text: "Me Cadastrar"
+subscribe_url: "http://www.eventick.com.br/"
+
+# Active sections on the website
+sections:
+  about: true
+  c4p: false
+  location: true
+  speakers: true
+  schedule: true
+  sponsors: true
+  partners: true
+  contact: false
+
+# The entire schedule
+schedule:
+  -
+    name: "Check-in / Breakfast"
+    time: "9h00"
+  -
+    name: "Linus Torvalds"
+    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    company: "Linux Foundation"
+    twitter: "linus"
+    presentation:
+      title: "Digging into a Linux Kernel"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      time: "10h00"
+  -
+    name: "Bill Gates"
+    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    company: "Microsoft"
+    twitter: "billy95"
+    presentation:
+      title: "Introducing Windows 12"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      time: "11h00"
+  -
+    name: "Lunch"
+    time: "12h00"
+  -
+    name: "Chuck Norris"
+    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    company: "Delta Command"
+    twitter: "littlechuck"
+    presentation:
+      title: "How to kill a elephant with one finger"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      time: "13h00"
+  -
+    name: "Steve Jobs"
+    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    company: "Apple, Inc."
+    twitter: "stevie"
+    presentation:
+      title: "Presenting iPad"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      time: "14h00"
+  -
+    name: "Coffee-break"
+    time: "15h00"
+  -
+    name: "Mark Zuckerberg"
+    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    company: "Facebook"
+    twitter: "zuck"
+    presentation:
+      title: "Revealing Facebook Secrets"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      time: "16h00"
+  -
+    name: "Steve Wozniak"
+    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    company: "Apple, Inc."
+    twitter: "woz"
+    presentation:
+      title: "Why do I prefer Android over iPhone"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      time: "17h00"
+
+# List of Sponsors
+sponsors:
+  -
+    name: "Eventick"
+    logo: "http://f.cl.ly/items/1U3p0Z0e2w0I1i3z1X22/Image%202012.09.25%203:00:58%20PM.png"
+    url: "http://eventick.com.br"
+
+# List of Partners
+partners:
+  -
+    name: "BrazilJS"
+    logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
+    url: "http://braziljs.org"
+
+# About section
+about_section:
+   title: "Sobre"
+   description:
+    -
+      p: "O \"Beer & Code\" é um evento idealizado em 2013 por Eduardo Mourão que teve como objetivo unir a classe tecnológica do Estado de Rondônia para troca de informações, ideias e apresentações das novas ferramentas e recursos de trabalho na área."
+    -
+      p: "A primeira edição em 2013 ocorreu na empresa Redeconv, em Porto Velho, da qual Eduardo era sócio e contou com a participação apenas de convidados e amigos da cidade para apresentações de projetos e as novidades do mercado."
+    -
+      p: "Após esse evento \"teste\" que contou com pelo menos 50 pessoas, ocorreu mais um encontro, agora em 2015, conhecido como \"meetup\" para discutirmos a segunda edição do \"Beer & Code\", novamente com apresentações sobre desenvolvimento de sistemas e o uso deles no mercado de trabalho, já contando com mais de 100 pessoas após a divulgação um pouco mais ampla."
+    -
+      p: "Estimamos para essa edição a participação de pelo menos 200 pessoas, com uma programação composta por palestras e discussões. Além, é claro, da cerveja que dá nome ao evento."
+
+# Call for papers section
+c4p_section:
+   title: "Call for papers"
+   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+   c4p_url: "http://call4paperz.com"
+   c4p_caption: "Submit"
+   c4p_rules_url: "http://call4paperz.com"
+   c4p_rules_caption: "Read the rules."
+
+# Contact section
+contact_section:
+   title: "Contato"
+   text: "Contact us if you have any questions."
+   contacts:
+   -
+     title: "Email"
+     link: "mailto:your_email@domain"
+   -
+     title: "Facebook"
+     link: "https://www.facebook.com/yourpage"
+   email: "your_email@domain"
+   twitter_url: "http://twitter.com/your_twitter"
+   twitter_username: "@your_twitter"
+   show_form: false
+   form:
+    action: "contato.php"
+    name: "What's your name?"
+    email: "What's your email?"
+    message: "Write a message"
+    send_button: "Send"
+
+# Location section
+location_section:
+   title: "Local"
+
+# Partners section
+partners_section:
+   title: "Parceiros"
+   show_your_logo_here: true
+
+# Schedule section
+schedule_section:
+   title: "Horário"
+   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+   time: "Time"
+   slot: "Slot"
+   description: "Description"
+
+# Speakers section
+speakers_section:
+   title: "Palestrantes"
+
+# Sponsors section
+sponsors_section:
+   title: "Apoiadores"
+   show_your_logo_here: true
