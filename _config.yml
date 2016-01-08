@@ -8,7 +8,7 @@ conf:
   name: "Beer & Code"
   description: "O melhor evento de cerveja e código da Região Norte!"
   date: "26 de Março de 2016"
-  price: "Totalmente de graça"
+  price: "Vagas limitadas!"
   address: "Avenida Lauro Sodré 2300, Olaria, Porto Velho, RO"
   venue: "Condomínio Reserva do Bosque"
   city: "Porto Velho - RO"
@@ -146,7 +146,7 @@ about_section:
     -
       p: "Após esse evento \"teste\" que contou com pelo menos 50 pessoas, ocorreu mais um encontro, agora em 2015, conhecido como \"meetup\" para discutirmos a segunda edição do \"BEER && CODE\", novamente com apresentações sobre desenvolvimento de sistemas e o uso delas no mercado de trabalho, já contando com mais de 100 pessoas após a divulgação um pouco mais ampla."
     -
-      p: "Estimamos para essa edição a participação de pelo menos 150 pessoas, com uma programação composta por palestras (7 no total) e discussões. Além, é claro, da cerveja que dá nome ao evento."
+      p: "Para essa edição a participação será limitada em 150 pessoas, com uma programação composta por palestras (7 no total) e discussões. Além, é claro, da cerveja que dá nome ao evento."
 
 # Call for papers section
 c4p_section:
@@ -191,7 +191,7 @@ partners_section:
 # Schedule section
 schedule_section:
    title: "Programação"
-   text: "Veja abaixo a programação do evento"
+   text: "A nata da programação de Rondônia em um só evento!"
    time: "Hora"
    slot: "Programação"
    description: "Descrição"
