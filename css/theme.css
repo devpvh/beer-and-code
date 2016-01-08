@@ -29,12 +29,25 @@ nav {background: #2b2b2b;}
   background-color: #2b2b2b;
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-size: 100% auto;
+  background-size: cover;
 }
 .logo-link, .tagline, .call-action-area .price {
   color:#fff;
   text-shadow: 1px 2px 1px rgba(0,0,0,.3);
 }
+
+.logo-link {
+  text-indent: -9999px;
+  display: block;
+  width: 90vw;
+  height: 91.26vw;
+  max-height: 434px;
+  max-width: 428px;
+  background-image: url("http://i.imgur.com/ZXtTAga.png");
+  background-size: cover;
+  margin: 0 auto 20px auto;
+}
+
 .tagline {font-weight: normal;}
 .call-action-area .price {color:#fddd52;}
 .call-action-area .call-action-link, .btn {

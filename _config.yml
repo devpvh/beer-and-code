@@ -8,10 +8,10 @@ conf:
   name: "Beer & Code"
   description: "O melhor evento de cerveja e código da Região Norte!"
   date: "26 de Março de 2016"
-  price: "É de graça"
-  address: "Boulevard Kukulcan, 30, México"
-  venue: "Fecomercio RO"
-  city: "Porto Velho"
+  price: "Totalmente de graça"
+  address: "Avenida Lauro Sodré 2300, Olaria, Porto Velho, RO"
+  venue: "Condomínio Reserva do Bosque"
+  city: "Porto Velho - RO"
 
 # Site info
 site:
@@ -19,11 +19,11 @@ site:
   favicon: "http://braziljs.org/favicon.ico"
   googleanalytics: "UA-33656081-1"
   images:
-    cover: "http://f.cl.ly/items/2X28422q1e3w0C2U1P3H/866591_24254643.jpg"
+    cover: "http://i.imgur.com/DyuPfIT.jpg"
     facebook: "http://braziljs.org/img/fb-share.jpg"
 
-subscribe_text: "Me Cadastrar"
-subscribe_url: "http://www.eventick.com.br/"
+subscribe_text: "Cadastre-se!"
+subscribe_url: "http://www.eventick.com.br/beer-and-code-ro-2016"
 
 # Active sections on the website
 sections:
@@ -32,108 +32,121 @@ sections:
   location: true
   speakers: true
   schedule: true
-  sponsors: true
+  sponsors: false
   partners: true
   contact: false
 
 # The entire schedule
 schedule:
   -
-    name: "Check-in / Breakfast"
-    time: "9h00"
+    name: "Abertura do Evento"
+    time: "16h00"
   -
-    name: "Linus Torvalds"
-    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    company: "Linux Foundation"
-    twitter: "linus"
+    name: "Homenagem e dedicatória ao idealizador do evento"
+    time: "16h15"
+  -
+    name: "Patrocinador"
+    time: "16h30"
+  -
+    name: "Bruno Pinheiro"
+    photo: "http://i.imgur.com/IQyOSp3.jpg"
+    bio: "Gerente de projetos na Superintendência Estadual de Assuntos Estratégicos do Governo de Rondônia, com 10 anos de experiência em infra-estrutura de redes, vê na informática a solução para a maioria dos problemas no Estado e no mundo."
+    company: "Superintendência Estadual de Assuntos Estratégicos de Rondônia (SEAE-RO)"
     presentation:
-      title: "Digging into a Linux Kernel"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      time: "10h00"
-  -
-    name: "Bill Gates"
-    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    company: "Microsoft"
-    twitter: "billy95"
-    presentation:
-      title: "Introducing Windows 12"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      time: "11h00"
-  -
-    name: "Lunch"
-    time: "12h00"
-  -
-    name: "Chuck Norris"
-    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    company: "Delta Command"
-    twitter: "littlechuck"
-    presentation:
-      title: "How to kill a elephant with one finger"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      time: "13h00"
-  -
-    name: "Steve Jobs"
-    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    company: "Apple, Inc."
-    twitter: "stevie"
-    presentation:
-      title: "Presenting iPad"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      time: "14h00"
-  -
-    name: "Coffee-break"
-    time: "15h00"
-  -
-    name: "Mark Zuckerberg"
-    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    company: "Facebook"
-    twitter: "zuck"
-    presentation:
-      title: "Revealing Facebook Secrets"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      time: "16h00"
-  -
-    name: "Steve Wozniak"
-    photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg"
-    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    company: "Apple, Inc."
-    twitter: "woz"
-    presentation:
-      title: "Why do I prefer Android over iPhone"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      title: "Open Flow"
       time: "17h00"
+  -
+    name: "Lucas Bernieri"
+    photo: "http://i.imgur.com/flD8YkH.jpg"
+    bio: "Tecnólogo em Sistemas para Internet, Desenvolvedor Front-end e Back-end, atua na área há 2 anos."
+    company: "Netpix Agência Web"
+    presentation:
+      title: "ReactJS"
+      time: "18h00"
+  -
+    name: "Gustavo Richetti"
+    photo: "http://i.imgur.com/P0tHXmm.jpg"
+    bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+    company: "Tribunal Regional do Trabalho da 14ª Regiao (TRT-RO)"
+    presentation:
+      title: "PlayFramework"
+      time: "19h00"
+  -
+    name: "Andrei Daldegan"
+    photo: "http://i.imgur.com/gXVp7tv.jpg"
+    bio: "Conta com 15 anos de experiência no ramo de desenvolvimento de software, atuando principalmente no ramo de finanças e comércio exterior. Fundou a empresa de Desenvolvimento de Jogos Animvs Game Studio no ano de 2015, ano em que a mesma foi vencedora do 3º Concurso de Jogos do SEBRAE. Consta na sua carta de experiências: Unreal Engine, Unity 3D, Libgdx, C++, Java, C#, desenvolvimento Mobile nas plataformas Android e iOS, arquitetura de sofware, entre outras."
+    company: "Animvs Game Studio (Curitiba-PR)"
+    presentation:
+      title: "Desenvolvimento de Games"
+      time: "20h00"
+  -
+    name: "Intervalo"
+    time: "21h00"
+  -
+    name: "Thiago Fleury"
+    photo: "http://i.imgur.com/4BtiUL9.jpg"
+    bio: "15 anos de experiência na área de infraestrutura atuando com tecnologias microsoft, websense, checkpoint, netbackup, fluke, entre outros."
+    company: "Tribunal de Justiça - Área de Segurança da Informação. (TJ-RO)"
+    presentation:
+      title: "Estratégias de Backup"
+      time: "22h00"
+  -
+    name: "Frederico Ferrão"
+    photo: "http://i.imgur.com/oawHAHZ.jpg"
+    bio: "Analista de Tecnologia da Informação no Tribunal Regional do Trabalho da 14ª Região, esta na área de desenvolvimento de software há 14 anos, tendo estudado e trabalhado com Delphi, Natural Adabas e Java, atualmente estuda programação funcional na linguagem Scala."
+    company: "Tribunal Regional do Trabalho da 14ª Regiao (TRT-RO)"
+    presentation:
+      title: "Scala"
+      time: "23h00"
+  -
+    name: "Rousseau Braga"
+    photo: "http://i.imgur.com/u16NQSk.jpg"
+    bio: "DevOps do TCE  e especialista com MBA em Engenharia de Software em Métodos Ágeis pela IGTI. Tem experiência de mais de 20 anos com informática, morou em Dublin/IR por um ano onde trabalhou com Python. Além disso vem  trabalhando com diversas tecnologias open source, pais de três filhos e nas horas vagas gosta de jogar Starcraft II, tocar guitarra e ficar falando sobre assuntos Tech com os amigos."
+    company: "Tribunal de Contas do Estado (TCE-RO)"
+    presentation:
+      title: "SailsJS"
+      time: "00h00"
+  -
+    name: "Networking"
+    time: "01h00"
+  -
+    name: "Encerramento"
+    time: "02h00"
 
 # List of Sponsors
 sponsors:
   -
-    name: "Eventick"
-    logo: "http://f.cl.ly/items/1U3p0Z0e2w0I1i3z1X22/Image%202012.09.25%203:00:58%20PM.png"
-    url: "http://eventick.com.br"
+    name: "Leite Fresquinho"
+    logo: "https://pbs.twimg.com/profile_images/1126389999/logo_queijo_400x400.jpg"
+    url: "https://www.facebook.com/LeiteFresquinho"
 
 # List of Partners
 partners:
   -
-    name: "BrazilJS"
-    logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
-    url: "http://braziljs.org"
+    name: "Redeconv"
+    logo: "https://www.redeconv.com.br/assets/logo-66cfdb9c68958b9713c2e7474044fb33.png"
+    url: "http://www.redeconv.com.br"
+  -
+    name: "Netpix Agência Web"
+    logo: "http://netpix.com.br/content/data/uploads/2014/09/logo-netpix2.png"
+    url: "http://www.netpix.com.br"
+  -
+    name: "Leite Fresquinho"
+    logo: "https://pbs.twimg.com/profile_images/1126389999/logo_queijo_400x400.jpg"
+    url: "https://www.facebook.com/LeiteFresquinho"
 
 # About section
 about_section:
    title: "Sobre"
    description:
     -
-      p: "O \"Beer & Code\" é um evento idealizado em 2013 por Eduardo Mourão que teve como objetivo unir a classe tecnológica do Estado de Rondônia para troca de informações, ideias e apresentações das novas ferramentas e recursos de trabalho na área."
+      p: "O \"BEER && CODE\" é um evento idealizado em 2013 por Eduardo Mourão que teve como objetivo unir a classe tecnológica do Estado de Rondônia para troca de informações, ideias e apresentações das novas ferramentas e recursos de trabalho na área."
     -
       p: "A primeira edição em 2013 ocorreu na empresa Redeconv, em Porto Velho, da qual Eduardo era sócio e contou com a participação apenas de convidados e amigos da cidade para apresentações de projetos e as novidades do mercado."
     -
-      p: "Após esse evento \"teste\" que contou com pelo menos 50 pessoas, ocorreu mais um encontro, agora em 2015, conhecido como \"meetup\" para discutirmos a segunda edição do \"Beer & Code\", novamente com apresentações sobre desenvolvimento de sistemas e o uso deles no mercado de trabalho, já contando com mais de 100 pessoas após a divulgação um pouco mais ampla."
+      p: "Após esse evento \"teste\" que contou com pelo menos 50 pessoas, ocorreu mais um encontro, agora em 2015, conhecido como \"meetup\" para discutirmos a segunda edição do \"BEER && CODE\", novamente com apresentações sobre desenvolvimento de sistemas e o uso delas no mercado de trabalho, já contando com mais de 100 pessoas após a divulgação um pouco mais ampla."
     -
-      p: "Estimamos para essa edição a participação de pelo menos 200 pessoas, com uma programação composta por palestras e discussões. Além, é claro, da cerveja que dá nome ao evento."
+      p: "Estimamos para essa edição a participação de pelo menos 150 pessoas, com uma programação composta por palestras (7 no total) e discussões. Além, é claro, da cerveja que dá nome ao evento."
 
 # Call for papers section
 c4p_section:
@@ -173,15 +186,15 @@ location_section:
 # Partners section
 partners_section:
    title: "Parceiros"
-   show_your_logo_here: true
+   show_your_logo_here: false
 
 # Schedule section
 schedule_section:
-   title: "Horário"
-   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-   time: "Time"
-   slot: "Slot"
-   description: "Description"
+   title: "Programação"
+   text: "Veja abaixo a programação do evento"
+   time: "Hora"
+   slot: "Programação"
+   description: "Descrição"
 
 # Speakers section
 speakers_section:
@@ -189,5 +202,5 @@ speakers_section:
 
 # Sponsors section
 sponsors_section:
-   title: "Apoiadores"
-   show_your_logo_here: true
+   title: "Patrocinadores"
+   show_your_logo_here: false
