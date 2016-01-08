@@ -15,12 +15,12 @@ conf:
 
 # Site info
 site:
-  url: "http://confboilerplate.com"
-  favicon: "http://braziljs.org/favicon.ico"
+  url: "http://www.beerandcode.ro"
+  favicon: "#"
   googleanalytics: "UA-33656081-1"
   images:
     cover: "http://i.imgur.com/DyuPfIT.jpg"
-    facebook: "http://braziljs.org/img/fb-share.jpg"
+    facebook: "http://i.imgur.com/ZXtTAga.png"
 
 subscribe_text: "Cadastre-se!"
 subscribe_url: "http://www.eventick.com.br/beer-and-code-ro-2016"
