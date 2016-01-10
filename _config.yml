@@ -123,10 +123,6 @@ sponsors:
 # List of Partners
 partners:
   -
-    name: "BrazilJS"
-    logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
-    url: "http://braziljs.org"
-  -
     name: "Redeconv"
     logo: "https://www.redeconv.com.br/assets/logo-66cfdb9c68958b9713c2e7474044fb33.png"
     url: "http://www.redeconv.com.br"
@@ -138,6 +134,10 @@ partners:
     name: "Leite Fresquinho"
     logo: "https://pbs.twimg.com/profile_images/1126389999/logo_queijo_400x400.jpg"
     url: "https://www.facebook.com/LeiteFresquinho"
+  -
+    name: "BrazilJS"
+    logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
+    url: "http://braziljs.org"
 
 # About section
 about_section:
