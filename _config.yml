@@ -48,21 +48,13 @@ schedule:
     name: "Patrocinador"
     time: "16h30"
   -
-    name: "Bruno Pinheiro"
-    photo: "http://i.imgur.com/IQyOSp3.jpg"
-    bio: "Gerente de projetos na Superintendência Estadual de Assuntos Estratégicos do Governo de Rondônia, com 10 anos de experiência em infra-estrutura de redes, vê na informática a solução para a maioria dos problemas no Estado e no mundo."
-    company: "Superintendência Estadual de Assuntos Estratégicos de Rondônia (SEAE-RO)"
-    presentation:
-      title: "Open Flow"
-      time: "17h00"
-  -
     name: "Lucas Bernieri"
     photo: "http://i.imgur.com/flD8YkH.jpg"
     bio: "Tecnólogo em Sistemas para Internet, Desenvolvedor Front-end e Back-end, atua na área há 2 anos."
     company: "Netpix Agência Web"
     presentation:
       title: "ReactJS"
-      time: "18h00"
+      time: "17h00"
   -
     name: "Gustavo Richetti"
     photo: "http://i.imgur.com/P0tHXmm.jpg"
@@ -70,7 +62,15 @@ schedule:
     company: "Tribunal Regional do Trabalho da 14ª Regiao (TRT-RO)"
     presentation:
       title: "PlayFramework"
-      time: "19h00"
+      time: "18h00"
+  -
+    name: "Clayton G C Santos"
+    photo: "http://i.imgur.com/SyzugRs.jpg"
+    bio: "Perito criminal em informática forense da POLITEC/RO, bacharel em informática pela UNIR e mestrando em informática forense pela UnB. Atualmente pesquisa sobre algoritmos biométricos e técnicas de reconhecimento de padrões em imagens."
+    company: "POLITEC - Polícia Técnico-Científica do Estado de Rondônia"
+    presentation:
+      title: "Técnicas e algoritmos para detecção de minucias em impressões digitais"
+      time: "19h00"      
   -
     name: "Andrei Daldegan"
     photo: "http://i.imgur.com/gXVp7tv.jpg"
