@@ -9,8 +9,8 @@ conf:
   description: "O melhor evento de cerveja e código da Região Norte!"
   date: "26 de Março de 2016"
   price: "Vagas limitadas!"
-  address: "Avenida Lauro Sodré 2300, Olaria, Porto Velho, RO"
-  venue: "Condomínio Reserva do Bosque"
+  address: "Avenida Rio Madeira, 4160 - Rio Madeira, Porto Velho - RO, 76821-300 (Condomínio Águas do Madeira)"
+  venue: "Condomínio Águas do Madeira"
   city: "Porto Velho - RO"
 
 # Site info
