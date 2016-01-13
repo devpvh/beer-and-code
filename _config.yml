@@ -9,8 +9,8 @@ conf:
   description: "O melhor evento de cerveja e código da Região Norte!"
   date: "26 de Março de 2016"
   price: "Vagas limitadas!"
-  address: "Avenida Rio Madeira, 4160 - Rio Madeira, Porto Velho - RO, 76821-300 (Condomínio Águas do Madeira)"
-  venue: "Condomínio Águas do Madeira"
+  address: "Estrada da Penal, 4395, Rio Madeira - Porto Velho - RO (Salão de Eventos | Águas do Madeira Residencial Clube)"
+  venue: "Salão de Eventos | Águas do Madeira Residencial Clube"
   city: "Porto Velho - RO"
 
 # Site info
