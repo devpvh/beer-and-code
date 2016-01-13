@@ -6,14 +6,14 @@
     <ul class="sponsors-list">
 
     {% for sponsor in site.sponsors %}
-      <li class="sponsor-item">
-        <a class="sponsor-logo sponsor-link {{ sponsor.type }}" href="{{ sponsor.url }}"><img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" class="photo" /></a>
+      <li class="sps-item">
+        <a class="sps-logo sps-link {{ sponsor.type }}" href="{{ sponsor.url }}"><img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" class="photo" /></a>
       </li>
     {% endfor %}
 
     {% if site.sponsors_section.show_your_logo_here %}
-      <li class="sponsor-item">
-        <a class="sponsor-logo sponsor-link sponsor-call" href="#"><img src="img/your-logo.jpg" alt="your logo" class="photo" /></a>
+      <li class="sps-item">
+        <a class="sps-logo sps-link sps-call" href="#"><img src="img/your-logo.jpg" alt="your logo" class="photo" /></a>
       </li>
     {% endif %}
     
