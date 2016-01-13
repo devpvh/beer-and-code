@@ -7,7 +7,7 @@
 
     {% for partner in site.partners %}
       <li class="partner-item">
-        <a class="partner-logo partner-link" href="{{ partner.url }}"><img src="{{ partner.logo }}" alt="{{ partner.name }}" class="photo" /></a>
+        <a class="partner-logo partner-link {{ partner.type }}" href="{{ partner.url }}"><img src="{{ partner.logo }}" alt="{{ partner.name }}" class="photo" /></a>
       </li>
     {% endfor %}
 

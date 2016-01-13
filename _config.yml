@@ -32,7 +32,7 @@ sections:
   location: true
   speakers: true
   schedule: true
-  sponsors: false
+  sponsors: true
   partners: true
   contact: false
 
@@ -116,24 +116,22 @@ schedule:
 # List of Sponsors
 sponsors:
   -
+    name: "Redeconv"
+    logo: "https://www.redeconv.com.br/assets/logo-66cfdb9c68958b9713c2e7474044fb33.png"
+    url: "http://www.redeconv.com.br"
+    type: "silver"
+  -
     name: "Leite Fresquinho"
     logo: "https://pbs.twimg.com/profile_images/1126389999/logo_queijo_400x400.jpg"
     url: "https://www.facebook.com/LeiteFresquinho"
+    type: "brass"
 
 # List of Partners
 partners:
   -
-    name: "Redeconv"
-    logo: "https://www.redeconv.com.br/assets/logo-66cfdb9c68958b9713c2e7474044fb33.png"
-    url: "http://www.redeconv.com.br"
-  -
     name: "Netpix Agência Web"
     logo: "http://netpix.com.br/content/data/uploads/2014/09/logo-netpix2.png"
     url: "http://www.netpix.com.br"
-  -
-    name: "Leite Fresquinho"
-    logo: "https://pbs.twimg.com/profile_images/1126389999/logo_queijo_400x400.jpg"
-    url: "https://www.facebook.com/LeiteFresquinho"
   -
     name: "BrazilJS"
     logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
