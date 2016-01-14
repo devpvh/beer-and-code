@@ -5,7 +5,7 @@ permalink: /:title.html
 
 # Conference info
 conf:
-  name: "Beer & Code"
+  name: "Beer && Code - Rondônia"
   description: "O melhor evento de cerveja e código da Região Norte!"
   date: "26 de Março de 2016"
   price: "Vagas limitadas!"
