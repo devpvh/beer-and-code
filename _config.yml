@@ -108,6 +108,11 @@ schedule:
 # List of Sponsors
 sponsors:
   -
+    name: "Sirrus"
+    logo: "http://i.imgur.com/bW5Kp3O.jpg"
+    url: "http://www.sirrus.com.br"
+    type: "gold"
+  -
     name: "Redeconv"
     logo: "https://www.redeconv.com.br/assets/logo-66cfdb9c68958b9713c2e7474044fb33.png"
     url: "http://www.redeconv.com.br"
