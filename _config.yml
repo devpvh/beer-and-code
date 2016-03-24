@@ -83,21 +83,13 @@ schedule:
     name: "Intervalo"
     time: "21h00"
   -
-    name: "Thiago Fleury"
-    photo: "http://i.imgur.com/4BtiUL9.jpg"
-    bio: "15 anos de experiência na área de infraestrutura atuando com tecnologias microsoft, websense, checkpoint, netbackup, fluke, entre outros."
-    company: "Tribunal de Justiça - Área de Segurança da Informação. (TJ-RO)"
-    presentation:
-      title: "Estratégias de Backup"
-      time: "22h00"
-  -
     name: "Frederico Ferrão"
     photo: "http://i.imgur.com/oawHAHZ.jpg"
     bio: "Analista de Tecnologia da Informação no Tribunal Regional do Trabalho da 14ª Região, esta na área de desenvolvimento de software há 14 anos, tendo estudado e trabalhado com Delphi, Natural Adabas e Java, atualmente estuda programação funcional na linguagem Scala."
     company: "Tribunal Regional do Trabalho da 14ª Regiao (TRT-RO)"
     presentation:
       title: "Scala"
-      time: "23h00"
+      time: "22h00"
   -
     name: "Rousseau Braga"
     photo: "http://i.imgur.com/u16NQSk.jpg"
@@ -105,10 +97,10 @@ schedule:
     company: "Tribunal de Contas do Estado (TCE-RO)"
     presentation:
       title: "SailsJS"
-      time: "00h00"
+      time: "23h00"
   -
     name: "Networking"
-    time: "01h00"
+    time: "00h00"
   -
     name: "Encerramento"
     time: "02h00"
