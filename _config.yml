@@ -142,7 +142,11 @@ sponsors:
     logo: "http://i.imgur.com/wOC1ofm.png"
     url: "https://www.facebook.com/4printgrafica"
     type: "brass"
-
+  -
+    name: "Brasil Digital"
+    logo: "http://i.imgur.com/KIKlsYW.jpg"
+    url: "https://www.linkedin.com/company/brasil-digital-provedor-de-internet"
+    type: "brass"
 
 # List of Partners
 partners:
